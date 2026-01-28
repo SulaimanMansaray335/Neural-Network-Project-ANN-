@@ -1,0 +1,1 @@
+### Neural Network Project showcasing a simple ANN. This will utilize the standard activation functions and Gradient Descent back propgation techniques included in order to fit the best neural network. 
