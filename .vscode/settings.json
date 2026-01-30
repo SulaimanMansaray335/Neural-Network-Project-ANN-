@@ -1,5 +1,7 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\tariq\\anaconda3\\envs\\venv\\python.exe",
+    "python.pythonPath": "C:\\Users\\tariq\\anaconda3\\envs\\venv\\python.exe",
+    "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
@@ -9,5 +11,11 @@
         }
     },
     "python.analysis.typeCheckingMode": "basic",
-    "notebook.formatOnSave.enabled": true
+    "python.analysis.inlayHints.callArgumentNames": "literals",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "editor.parameterHints.enabled": true,
+    "notebook.formatOnSave.enabled": true,
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": []
 }
