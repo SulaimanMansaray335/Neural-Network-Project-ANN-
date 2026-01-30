@@ -61,7 +61,7 @@ geo_encoded_df = pd.DataFrame(geo_encoded, columns = one_hot_encoder.get_feature
 input_data['Gender'] = label_encoder_gender.transform(input_data['Gender'])
 input_data = pd.concat([input_data.reset_index(drop = True), geo_encoded_df], axis = 1)
 
-input_data_scaled = scaler.transform(input_data)
+input_data_scaled = scaler.transform(input_data.values)
 
 prediction = model.predict(input_data_scaled)
 predicted_salary = prediction[0][0]
